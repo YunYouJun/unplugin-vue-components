@@ -73,7 +73,7 @@ export default {
 module.exports = {
   /* ... */
   plugins: [
-    require('unplugin-vue-components/webpack').default({ /* options */ }),
+    require('unplugin-vue-components/webpack')({ /* options */ }),
   ],
 }
 ```
@@ -88,7 +88,7 @@ module.exports = {
 module.exports = {
   /* ... */
   plugins: [
-    require('unplugin-vue-components/rspack').default({ /* options */ }),
+    require('unplugin-vue-components/rspack')({ /* options */ }),
   ],
 }
 ```
